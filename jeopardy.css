@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(104, 99, 99);
+}
+
+h1 {
+    color: #030894;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+    font-weight: bolder;
+    text-align: center; 
+    text-decoration:underline;
+}
+
+#new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game th, #game td {
+    border: groove 1.5px rgb(238, 238, 238);
+    padding: .8em;
+    height: 14em;
+    width: 14em;
+}
+
+#game {
+    background-color: #030894;
+    color: rgb(238, 238, 238);
+    border-collapse: separate;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10pt;
+    table-layout: fixed;
+  }
+  
+  th {
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-rendering: auto;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+  
+  td {
+    text-shadow: rgb(0, 0, 0) 2.5px 2.5px;
+    text-rendering: auto;
+    font-family: Copse, serif;
+  }
+  
+  td:hover {
+    background-color: blue;
+    cursor: grab;
+  }
+  
+  button:hover {
+    background-color: rgb(190, 190, 207);
+    cursor: pointer;
+  }
+
+  #nike {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25pt;
+  }
